@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.body {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    color: #111111;
+}
 .navbar {
     margin-top: 31px;
     padding:  0px;
@@ -11,7 +23,7 @@
 }
 
 .navbar-nav .nav-item {
-    margin-right: 51px;
+    margin-right: 71px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -24,4 +36,65 @@
     text-transform: lowercase;
 
     color: #111111;
+}
+
+.section-intro {
+    background-image: url(images/intro-girl.png);
+    background-repeat: no-repeat;
+    background-position: 0 180px ;
+    background-size: 100% auto;
+    height: 900px;
+}
+.section-intro .intro-head {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 160px;
+    line-height: 194px;
+    letter-spacing: -0.095em;
+
+    color: #111111;
+    margin-left: 270px;
+}
+.section-intro .intro-comment {
+    margin-top: 33px;
+    margin-bottom: 300px;
+    margin-left:  -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    padding-right: 470px;
+    color: #111111;
+}
+
+.section-intro .btn-book-a-all {
+    width: 650px;
+    height: 110px;
+
+    box-sizing: border-box;
+    background: rgba(227, 227, 227, 0.2);
+    border: 1px solid #F8F8F8;
+    backdrop-filter: blur(15px);
+    border-radius: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.055em;
+    text-transform: uppercase;
+    color: #F8F8F8;
+
+    margin-left: 270px;
+
+
+
+
 }
