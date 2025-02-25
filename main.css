@@ -1,0 +1,27 @@
+.navbar {
+    margin-top: 31px;
+    padding:  0px;
+}
+.nav-link {
+    color: #111111; 
+}
+
+.navbar-brand {
+    margin-right: 200px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 51px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: -0.055em;
+    text-transform: lowercase;
+
+    color: #111111;
+}
