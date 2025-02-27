@@ -10,12 +10,14 @@
     text-transform: uppercase;
     color: #111111;
 }
+
 .navbar {
     margin-top: 31px;
-    padding:  0px;
+    padding: 0px;
 }
+
 .nav-link {
-    color: #111111; 
+    color: #111111;
 }
 
 .navbar-brand {
@@ -41,10 +43,11 @@
 .section-intro {
     background-image: url(images/intro-girl.png);
     background-repeat: no-repeat;
-    background-position: 0 180px ;
+    background-position: 0 180px;
     background-size: 100% auto;
     height: 900px;
 }
+
 .section-intro .intro-head {
     font-family: 'Inter';
     font-style: normal;
@@ -56,10 +59,11 @@
     color: #111111;
     margin-left: 270px;
 }
+
 .section-intro .intro-comment {
     margin-top: 33px;
     margin-bottom: 300px;
-    margin-left:  -20px;
+    margin-left: -20px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -93,8 +97,122 @@
     color: #F8F8F8;
 
     margin-left: 270px;
+}
 
+.section-services .services-head {
+    margin-top: 120px;
+    margin-bottom: 123px;
+    margin-left: 100px;
+}
 
+.section-services .services-text {
 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 125px;
+    line-height: 151px;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
 
+    color: #111111;
+    margin-left: 300px;
+
+}
+
+.section-services .line {
+    width: 1000px;
+    border: 1px solid #111111;
+    margin-left: 70px;
+
+}
+
+.section-services .services-body {
+    max-width: 1318px;
+}
+
+.section-services .services-first {
+    margin-bottom: 150px;
+}
+
+.section-services .services-item-mans {
+    max-width: 315px;
+    height: 414px;
+    margin-right: 20px;
+    padding-left: 0px;
+}
+
+.section-services .services-comment {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+
+    color: #111111;
+}
+
+.section-services .btn-more {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.025em;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+
+    color: #111111;
+    padding-left: 0px;
+
+}
+
+.section-services .services-item-wedding {
+    max-width: 647.75px;
+    height: 522.16px;
+    margin-right: 20px;
+    padding-left: 0px;
+
+}
+
+.section-services .services-item-celebrations {
+    max-width: 313.7px;
+    height: 258.87px;
+    padding-left: 0px;
+}
+
+.section-services .services-item-outwear {
+    max-width: 315px;
+    padding-left: 0px;
+    margin-right: 20px;
+}
+
+.section-services .services-item-coclait {
+    max-width: 315px;
+    padding-left: 0px;
+    margin-right: 20px;
+}
+
+.section-services .services-item-repair {
+    max-width: 315px;
+    padding-left: 0px;
+}
+
+.section-services .services-second {
+    margin-bottom: 30px;
+}
+
+.section-services .services-item-family {
+    max-width: 650px;
+    padding-left: 0px;
+}
+
+.section-services .services-item-basic {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 350px;
 }
