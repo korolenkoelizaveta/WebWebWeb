@@ -99,13 +99,16 @@
     margin-left: 270px;
 }
 
+.section-services {
+    margin-bottom: 50px;
+}
 .section-services .services-head {
     margin-top: 120px;
     margin-bottom: 123px;
     margin-left: 100px;
 }
 
-.section-services .services-text {
+.head-text {
 
     font-family: 'Inter';
     font-style: normal;
@@ -120,7 +123,7 @@
 
 }
 
-.section-services .line {
+.line {
     width: 1000px;
     border: 1px solid #111111;
     margin-left: 70px;
@@ -215,4 +218,237 @@
     padding-left: 0px;
     padding-right: 0px;
     margin-left: 350px;
+}
+.section-about {
+    margin-bottom: 120px;
+}
+
+.section-about .about-head {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    padding-left: 65px;
+}
+.section-about .about-body {
+    max-width: 1408px;
+    padding-left: 0px;
+}
+.section-about .about-img {
+    margin-bottom: 100px;
+}
+.section-about .about-comment1 {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+max-width: 589px;
+color: #111111;
+margin-left: 379px;
+margin-right: 83px;
+
+}
+
+.section-about .about-comment2 { 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 103.52%;
+letter-spacing: -0.025em;
+text-transform: lowercase;
+color: #111111;
+max-width: 175px;
+
+
+}
+
+.section-owner {
+    background-color: #111111;
+    padding-bottom: 200px;
+}
+
+.section-owner .owner-white-block {
+    background-color: #FFFFFF; 
+    padding: 20px; 
+    max-width: 1320px; 
+    max-height: 5160px;
+    margin-top: 200px;
+}
+.section-owner .owner-miranda {
+    max-width: 629px;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+.section-owner .owner-landber {
+    max-width: 629px;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+.section-owner .owner-body {
+    max-width: 1318px;
+}
+
+.section-owner .text-overlay {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 125px;
+line-height: 151px;
+letter-spacing: -0.06em;
+text-transform: uppercase;
+position: absolute;
+color: #F8F8F8;
+
+}
+
+.section-owner .owner-img-text-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+
+.section-owner .text-landber-i-am {
+position: absolute;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 116.02%;
+letter-spacing: -0.025em;
+text-transform: uppercase;
+width: 174px;
+margin-top: 20px;
+margin-left: 30px;
+
+color: #111111;
+
+}
+
+.section-owner .owner-landber-text2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.section-owner .bottom-text {
+    top: 740px;
+    padding-right: 330px;
+}
+
+.section-numbers .numbers-body {
+    padding-top: 200px;
+    margin-left: 50.5px;
+    margin-right: 0;
+    max-width: 1405px;
+}
+
+.section-numbers .numbers-item-num {
+font-family: 'Inter';
+font-style: italic;
+font-weight: 200;
+font-size: 125px;
+line-height: 151px;
+letter-spacing: -0.1em;
+text-transform: uppercase;
+max-width: 230px;
+margin-right: 20px;
+max-height: 125px;
+
+
+color: #111111;
+display: flex;
+justify-items: left;
+}
+
+.section-numbers .numbers-item-text {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 125px;
+line-height: 92%;
+letter-spacing: -0.055em;
+text-indent: 330px;
+text-transform: uppercase;
+max-width: 1530px;
+padding-right: 50.5px;
+margin-left: -100px;
+
+color: #111111;
+}
+
+.section-numbers .numbers-item {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 82px;
+}
+
+.section-numbers {
+    margin-bottom: 140px;
+}
+
+.section-process {
+
+background: #F9F9F9;
+margin-bottom: 200px;
+height: 1240px;
+}
+.section-process .process-head {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 125px;
+line-height: 151px;
+letter-spacing: -0.06em;
+text-transform: uppercase;
+
+color: #111111;
+margin-left: 450px;
+margin-bottom: 98px;
+}
+
+.section-process .process-body {
+    padding-top: 100px;
+    max-width: 1440px;
+    padding-left: 0;
+}
+
+.section-process .process-step-group {
+    margin-left: 63px;
+    margin-top: 44px;
+    margin-right: 63px;
+    margin-bottom: 67px;
+}
+
+.section-process .step-text {
+    max-width: 850px;
+}
+.section-process .step {
+    margin-right: 231px;
+    max-width: 130px;
+    padding: 0;
+}
+
+.section-process .step-days {
+    max-width: 105px;
+    padding: 0;
+    margin-right: 200px;
+}
+
+.section-process .process-line {
+width: 1440px;
+height: 0px;
+
+border: 1px solid #111111;
+
 }
