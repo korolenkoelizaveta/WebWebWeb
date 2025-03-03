@@ -9,6 +9,7 @@
     letter-spacing: -0.025em;
     text-transform: uppercase;
     color: #111111;
+    
 }
 
 .navbar {
@@ -239,6 +240,7 @@
 
 .section-about .about-img {
     margin-bottom: 100px;
+    max-width: 1408px;
 }
 
 .section-about .about-comment1 {
@@ -269,6 +271,9 @@
     max-width: 175px;
 
 
+}
+.section-about .about-group-text {
+    max-width: 1405px;
 }
 
 .section-owner {
@@ -581,10 +586,10 @@
 }
 
 .section-collections .collections-item {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
 }
 
@@ -593,10 +598,11 @@
 }
 
 .section-lookbook {
-background: #F8F8F8;
-height: 1500px;
+    background: #F8F8F8;
+    height: 1500px;
 
 }
+
 .section-lookbook .lookbook-body {
     margin-left: 0px;
     margin-right: 0px;
@@ -604,42 +610,42 @@ height: 1500px;
 }
 
 .section-lookbook .lookbook-head {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 125px;
-line-height: 151px;
-letter-spacing: -0.06em;
-text-transform: uppercase;
-position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 125px;
+    line-height: 151px;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+    position: absolute;
 
-color: #111111;
+    color: #111111;
 
-margin-top: 100px;
-margin-left: 350px;
-margin-bottom: 35px;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-bottom: 35px;
 }
 
 .section-lookbook .lookbook-line {
-border: 1px solid #111111;
-margin-bottom: 1300px;
-position: relative;
+    border: 1px solid #111111;
+    margin-bottom: 1300px;
+    position: relative;
 }
 
 .section-lookbook .lookbook-text {
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 80px;
-line-height: 97px;
-letter-spacing: -0.055em;
-text-transform: uppercase;
-color: #111111;
-width: 700px;
-margin-bottom: 360px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 97px;
+    letter-spacing: -0.055em;
+    text-transform: uppercase;
+    color: #111111;
+    width: 700px;
+    margin-bottom: 360px;
 
-transform: rotate(-90deg);
+    transform: rotate(-90deg);
 
 }
 
@@ -668,4 +674,220 @@ transform: rotate(-90deg);
     position: absolute;
     margin-left: 28px;
     padding-top: 275px;
+}
+
+.section-reviews {
+    margin-top: 200px;
+}
+
+.section-reviews .reviews-body {
+    margin: 0;
+    padding: 0;
+    max-width: 1405px;
+    margin-bottom: 100px;
+}
+
+.section-reviews .reviews-img-girl {
+    width: 984px;
+    height: 1261px;
+}
+
+.section-reviews .reviews-contant {
+    margin-left: 60px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.section-reviews .reviews-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 103.52%;
+    letter-spacing: -0.025em;
+    text-transform: lowercase;
+    max-width: 104px;
+    margin-left: 20px;
+    color: #111111;
+
+
+}
+
+.section-reviews .reviews-img {
+    max-width: 984px;
+    position: relative;
+}
+
+.section-reviews .reviews-comment {
+    position: absolute;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+
+    color: #F8F8F8;
+
+
+    width: 701.39px;
+    height: 793px;
+    margin-left: 640px;
+    margin-top: 420px;
+
+}
+
+.section-reviews .btn-right {
+    margin-left: 150px;
+}
+
+.reviews-buttons {
+    position: absolute;
+    max-height: 65px;
+    margin-right: 500px;
+    margin-top: 1140px;
+    padding-left: 300px;
+}
+
+.section-reviews .btn-reviews {
+
+    width: 122.78px;
+    height: 62.23px;
+
+
+    position: absolute;
+
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid #F8F8F8;
+    backdrop-filter: blur(15px);
+    border-radius: 50% / 50%;
+}
+
+.section-reviews .reviews-icons {
+    width: 100px;
+    height: 100px;
+    color: #F8F8F8;
+}
+
+.section-reviews .reviews-head {
+    padding-left: 150px;
+}
+
+.section-get-in-touch .get-in-touch-body {
+    margin: 0px;
+    max-width: 1408px;
+    padding: 0px;
+}
+
+.section-get-in-touch .get-in-touch-head {
+    margin-top: 100px;
+    padding-left: 0px;
+    margin-bottom: 100px;
+}
+
+.section-get-in-touch .get-in-touch-contant {
+    height: 760px;
+    background-color: #111111;
+}
+
+.section-get-in-touch .get-in-touch-container {
+    max-width: 730px;
+}
+
+.section-get-in-touch .get-in-touch-label {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 61px;
+
+letter-spacing: -0.025em;
+text-transform: uppercase;
+
+color: #F8F8F8;
+margin-bottom: 60px;
+
+
+}
+
+.section-get-in-touch .get-in-touch-item {
+width: 611.25px;
+height: 27.03px;
+padding: 0px;
+margin-bottom: 80px;
+
+
+}
+
+.section-get-in-touch .get-in-touch-group {
+    display: flex;
+    flex-direction: column;
+    max-height: 760px;
+    padding-top: 114px;
+    padding-left: 58px;
+}
+
+.section-get-in-touch .get-in-touch-form {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: -0.055em;
+text-transform: lowercase;
+
+/* white */
+color: #F8F8F8;
+background: transparent;
+border: 0px;
+
+}
+
+.section-get-in-touch .get-in-touch-line {
+
+width: 611.25px;
+height: 0px;
+
+background: #F8F8F8;
+
+border: 1px solid #F8F8F8;
+
+}
+
+.section-get-in-touch .get-in-touch-img-container {
+ margin-left: 684px;
+ max-width: 700px;
+ margin-top: -645px;
+}
+
+.section-get-in-touch .get-in-touch-btn {
+width: 619.49px;
+height: 87.38px;
+
+background: rgba(227, 227, 227, 0.2);
+border: 1px solid #F8F8F8;
+backdrop-filter: blur(15px);
+border-radius: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: -0.055em;
+text-transform: uppercase;
+
+color: #F8F8F8;
+
+margin-left: -20px;
+
+
+
 }
