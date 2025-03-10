@@ -41,15 +41,7 @@
     color: #111111;
 }
 
-.section-intro {
-    background-image: url(images/intro-girl.png);
-    background-repeat: no-repeat;
-    background-position: 0 180px;
-    background-size: 100% auto;
-    height: 900px;
-}
-
-.section-intro .intro-head {
+.section-header .intro-head {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -61,11 +53,19 @@
     margin-left: 270px;
 }
 
-.section-intro .intro-comment {
-    margin-top: 33px;
-    margin-bottom: 300px;
-    margin-left: -20px;
+.section-intro {
+    background-image: url(images/intro-girl.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: column;
 
+}
+
+
+.section-intro .intro-comment {
+    padding-top: 60px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -73,13 +73,15 @@
     line-height: 36px;
     letter-spacing: -0.025em;
     text-transform: uppercase;
-    padding-right: 470px;
     color: #111111;
 }
 
 .section-intro .btn-book-a-all {
     width: 650px;
     height: 110px;
+
+    margin-top: 302px;
+    margin-bottom: 90px;
 
     box-sizing: border-box;
     background: rgba(227, 227, 227, 0.2);
@@ -97,7 +99,6 @@
     text-transform: uppercase;
     color: #F8F8F8;
 
-    margin-left: 270px;
 }
 
 .section-services {
@@ -604,9 +605,8 @@
 }
 
 .section-lookbook .lookbook-body {
-    margin-left: 0px;
-    margin-right: 0px;
-    max-width: 1405px;
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
 }
 
 .section-lookbook .lookbook-head {
@@ -642,10 +642,11 @@
     letter-spacing: -0.055em;
     text-transform: uppercase;
     color: #111111;
-    width: 700px;
-    margin-bottom: 360px;
 
     transform: rotate(-90deg);
+    white-space: nowrap;
+    margin-bottom: 400px;
+    position: absolute;
 
 }
 
@@ -655,8 +656,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    max-width: 180px;
+    /* max-width: 180px; */
+    position: relative;
     height: 1419px;
+    background: url('./images/lookbook-line.svg');
+    background-repeat: no-repeat;
 }
 
 .section-lookbook .lookbook-items {
@@ -672,8 +676,8 @@
 
 .section-lookbook .lookbook-img-girl {
     position: absolute;
-    margin-left: 28px;
-    padding-top: 275px;
+    left: 28px;
+    top: 275px;
 }
 
 .section-reviews {
