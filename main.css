@@ -9,7 +9,7 @@
     letter-spacing: -0.025em;
     text-transform: uppercase;
     color: #111111;
-    
+
 }
 
 .navbar {
@@ -108,11 +108,12 @@
 .section-services .services-head {
     margin-top: 120px;
     margin-bottom: 123px;
-    margin-left: 100px;
+    display: inline-block;
+    width: fit-content;
+    align-content: center;
 }
 
 .head-text {
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -122,38 +123,20 @@
     text-transform: uppercase;
 
     color: #111111;
-    margin-left: 300px;
-
 }
 
 .line {
     width: 1000px;
     border: 1px solid #111111;
-    margin-left: 70px;
-
 }
 
-.section-services .services-body {
-    max-width: 1318px;
-}
-
-.section-services .services-first {
-    margin-bottom: 150px;
-}
-
-.section-services .services-item-mans {
-    max-width: 315px;
-    height: 414px;
-    margin-right: 20px;
-    padding-left: 0px;
-}
 
 .section-services .services-comment {
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 36px;
     letter-spacing: -0.025em;
     text-transform: uppercase;
@@ -177,51 +160,23 @@
 
 }
 
-.section-services .services-item-wedding {
-    max-width: 647.75px;
-    height: 522.16px;
-    margin-right: 20px;
-    padding-left: 0px;
-
-}
-
-.section-services .services-item-celebrations {
-    max-width: 313.7px;
-    height: 258.87px;
-    padding-left: 0px;
-}
-
-.section-services .services-item-outwear {
-    max-width: 315px;
-    padding-left: 0px;
-    margin-right: 20px;
-}
-
-.section-services .services-item-coclait {
-    max-width: 315px;
-    padding-left: 0px;
-    margin-right: 20px;
-}
-
-.section-services .services-item-repair {
-    max-width: 315px;
-    padding-left: 0px;
-}
-
-.section-services .services-second {
+.services-item {
+    display: inline-block;
+    /* Контейнер подстраивается под содержимое */
+    width: fit-content;
+    /* Ширина равна ширине содержимого */
     margin-bottom: 30px;
+    padding: 0px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 0;
 }
 
-.section-services .services-item-family {
-    max-width: 650px;
-    padding-left: 0px;
+.services-item img {
+    height: auto;
+    margin-bottom: 20px;
 }
 
-.section-services .services-item-basic {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 350px;
-}
 
 .section-about {
     margin-bottom: 120px;
@@ -230,18 +185,16 @@
 .section-about .about-head {
     margin-top: 120px;
     margin-bottom: 100px;
-    margin-left: 100px;
-    padding-left: 65px;
-}
-
-.section-about .about-body {
-    max-width: 1408px;
-    padding-left: 0px;
+    text-align: center;
 }
 
 .section-about .about-img {
+    width: 100%;
+    height: auto;
     margin-bottom: 100px;
-    max-width: 1408px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-about .about-comment1 {
@@ -255,8 +208,6 @@
     text-transform: uppercase;
     max-width: 589px;
     color: #111111;
-    margin-left: 379px;
-    margin-right: 83px;
 
 }
 
@@ -273,9 +224,6 @@
 
 
 }
-.section-about .about-group-text {
-    max-width: 1405px;
-}
 
 .section-owner {
     background-color: #111111;
@@ -283,87 +231,58 @@
 }
 
 .section-owner .owner-white-block {
+    display: inline-block;
+    width: fit-content;
     background-color: #FFFFFF;
-    padding: 20px;
-    max-width: 1320px;
-    max-height: 5160px;
     margin-top: 200px;
+    padding: 20px 25px 20px 25px;
 }
 
-.section-owner .owner-miranda {
-    max-width: 629px;
-    padding: 0px;
-    margin-right: 20px;
-}
 
-.section-owner .owner-landber {
-    max-width: 629px;
-    padding: 0px;
-    padding-left: 20px;
-}
 
-.section-owner .owner-body {
-    max-width: 1318px;
-}
-
-.section-owner .text-overlay {
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 125px;
-    line-height: 151px;
-    letter-spacing: -0.06em;
-    text-transform: uppercase;
-    position: absolute;
-    color: #F8F8F8;
-
-}
-
-.section-owner .owner-img-text-container {
+.section-owner .owner-img-text-container,
+.section-owner .owner-img-text-container2 {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: end;
-
+    align-items: flex-end;
 }
 
 
-.section-owner .text-landber-i-am {
+.section-owner .text-overlay {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 151px;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+    color: #F8F8F8;
     position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
 
-    font-family: 'Inter';
-    font-style: normal;
+.section-owner .text-landber-i-am {
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 116.02%;
     letter-spacing: -0.025em;
     text-transform: uppercase;
-    width: 174px;
-    margin-top: 20px;
-    margin-left: 30px;
-
     color: #111111;
-
+    position: absolute;
+    top: 50px;
+    left: 20px;
 }
 
-.section-owner .owner-landber-text2 {
-    position: relative;
+.section-numbers {
+    margin-bottom: 140px;
+    margin-top: 200px;
+}
+
+.section-numbers .numbers-item {
     display: flex;
-    justify-content: center;
-    align-items: end;
-}
-
-.section-owner .bottom-text {
-    top: 740px;
-    padding-right: 330px;
-}
-
-.section-numbers .numbers-body {
-    padding-top: 200px;
-    margin-left: 50.5px;
-    margin-right: 0;
-    max-width: 1405px;
+    align-items: baseline;
 }
 
 .section-numbers .numbers-item-num {
@@ -374,36 +293,23 @@
     line-height: 151px;
     letter-spacing: -0.1em;
     text-transform: uppercase;
-    max-width: 230px;
-    margin-right: 20px;
-    max-height: 125px;
-
-
     color: #111111;
-    display: flex;
-    justify-items: left;
 }
 
 .section-numbers .numbers-item-text {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 125px;
+    font-size: 120px;
     line-height: 92%;
     letter-spacing: -0.055em;
-    text-indent: 330px;
     text-transform: uppercase;
-    max-width: 1530px;
-    padding-right: 50.5px;
-    margin-left: -100px;
-
     color: #111111;
+    margin-left: 20px;
 }
 
-.section-numbers .numbers-item {
-    display: flex;
-    align-items: baseline;
-    margin-bottom: 82px;
+.section-numbers .nums {
+    margin-bottom: 80px;
 }
 
 .section-numbers {
@@ -411,10 +317,8 @@
 }
 
 .section-process {
-
     background: #F9F9F9;
     margin-bottom: 200px;
-    height: 1240px;
 }
 
 .section-process .process-head {
@@ -427,50 +331,39 @@
     text-transform: uppercase;
 
     color: #111111;
-    margin-left: 450px;
     margin-bottom: 98px;
+    text-align: center;
+    padding-top: 200px;
 }
 
 .section-process .process-body {
     padding-top: 100px;
-    max-width: 1440px;
-    padding-left: 0;
-}
-
-.section-process .process-step-group {
-    margin-left: 63px;
-    margin-top: 44px;
-    margin-right: 63px;
-    margin-bottom: 67px;
-}
-
-.section-process .step-text {
-    max-width: 850px;
+    width: fit-content;
+    padding: 0;
 }
 
 .section-process .step {
-    margin-right: 231px;
-    max-width: 130px;
-    padding: 0;
-}
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.055em;
+    text-transform: uppercase;
+    color: #111111;
 
-.section-process .step-days {
-    max-width: 105px;
-    padding: 0;
-    margin-right: 200px;
+
 }
 
 .section-process .process-line {
     width: 1440px;
-    height: 0px;
-
     border: 1px solid #111111;
-
 }
 
 .section-clients {
 
     background: #111111;
+    padding-top: 200px;
 
 }
 
@@ -485,7 +378,6 @@
     text-transform: uppercase;
 
     color: #F8F8F8;
-    margin-left: 450px;
     margin-bottom: 115px;
 }
 
@@ -498,26 +390,26 @@
 }
 
 .section-clients .clients-group {
-    margin-left: 63px;
-    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 30px;
 }
 
 .section-clients .clients-item {
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 50px;
     line-height: 61px;
     letter-spacing: -0.055em;
     text-transform: uppercase;
-
     color: #F8F8F8;
-    padding: 0;
+    text-align: center;
+    flex: 1;
+    padding: 0 15px;
 }
 
 .section-clients .clients-items {
-    margin-bottom: 200px;
+    padding-bottom: 200px;
 }
 
 .section-collections .collections-body {
@@ -804,26 +696,26 @@
 
 .section-get-in-touch .get-in-touch-label {
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 61px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
 
-letter-spacing: -0.025em;
-text-transform: uppercase;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
 
-color: #F8F8F8;
-margin-bottom: 60px;
+    color: #F8F8F8;
+    margin-bottom: 60px;
 
 
 }
 
 .section-get-in-touch .get-in-touch-item {
-width: 611.25px;
-height: 27.03px;
-padding: 0px;
-margin-bottom: 80px;
+    width: 611.25px;
+    height: 27.03px;
+    padding: 0px;
+    margin-bottom: 80px;
 
 
 }
@@ -837,60 +729,60 @@ margin-bottom: 80px;
 }
 
 .section-get-in-touch .get-in-touch-form {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-letter-spacing: -0.055em;
-text-transform: lowercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: -0.055em;
+    text-transform: lowercase;
 
-/* white */
-color: #F8F8F8;
-background: transparent;
-border: 0px;
+    /* white */
+    color: #F8F8F8;
+    background: transparent;
+    border: 0px;
 
 }
 
 .section-get-in-touch .get-in-touch-line {
 
-width: 611.25px;
-height: 0px;
+    width: 611.25px;
+    height: 0px;
 
-background: #F8F8F8;
+    background: #F8F8F8;
 
-border: 1px solid #F8F8F8;
+    border: 1px solid #F8F8F8;
 
 }
 
 .section-get-in-touch .get-in-touch-img-container {
- margin-left: 684px;
- max-width: 700px;
- margin-top: -645px;
+    margin-left: 684px;
+    max-width: 700px;
+    margin-top: -645px;
 }
 
 .section-get-in-touch .get-in-touch-btn {
-width: 619.49px;
-height: 87.38px;
+    width: 619.49px;
+    height: 87.38px;
 
-background: rgba(227, 227, 227, 0.2);
-border: 1px solid #F8F8F8;
-backdrop-filter: blur(15px);
-border-radius: 40px;
+    background: rgba(227, 227, 227, 0.2);
+    border: 1px solid #F8F8F8;
+    backdrop-filter: blur(15px);
+    border-radius: 40px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-letter-spacing: -0.055em;
-text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.055em;
+    text-transform: uppercase;
 
-color: #F8F8F8;
+    color: #F8F8F8;
 
-margin-left: -20px;
+    margin-left: -20px;
 
 
 
