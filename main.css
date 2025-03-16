@@ -412,31 +412,20 @@
     padding-bottom: 200px;
 }
 
-.section-collections .collections-body {
-    max-width: 1408px;
-    padding: 0;
+
+.section-collections {
+    margin-bottom: 200px;
 }
 
 .section-collections .collections-head {
     margin-top: 120px;
     margin-bottom: 100px;
-    margin-left: 100px;
-    padding-left: 65px;
 }
 
-.section-collections .text-collections {
-    margin-left: 170px;
-}
-
-.section-collections .collections-items {
-    padding-left: 32px;
-    padding-right: 17px;
-    margin-bottom: 180px;
-}
-
-.section-collections .collections-item {
-    max-width: 649px;
-    max-height: 590px;
+.section-collections .container-collections {
+    width: fit-content;
+    align-content: center;
+    justify-content: center;
 }
 
 .section-collections .collections-text {
@@ -483,7 +472,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+
 }
 
 .section-collections .collections-group-text-butt {
@@ -496,10 +485,6 @@
 
 }
 
-.section-lookbook .lookbook-body {
-    /* margin-left: 0px; */
-    /* margin-right: 0px; */
-}
 
 .section-lookbook .lookbook-head {
     font-family: 'Inter';
@@ -514,8 +499,8 @@
     color: #111111;
 
     margin-top: 100px;
-    margin-left: 350px;
     margin-bottom: 35px;
+    left: 25%;
 }
 
 .section-lookbook .lookbook-line {
@@ -572,95 +557,82 @@
     top: 275px;
 }
 
-.section-reviews {
-    margin-top: 200px;
+.section-reviews .reviews-text-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.section-reviews .reviews-body {
-    margin: 0;
-    padding: 0;
-    max-width: 1405px;
+.section-reviews {
+    margin-top: 200px;
     margin-bottom: 100px;
 }
 
 .section-reviews .reviews-img-girl {
-    width: 984px;
-    height: 1261px;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-.section-reviews .reviews-contant {
-    margin-left: 60px;
+.section-reviews .reviews-content {
     margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
 }
 
 .section-reviews .reviews-text {
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 103.52%;
     letter-spacing: -0.025em;
     text-transform: lowercase;
-    max-width: 104px;
-    margin-left: 20px;
     color: #111111;
-
-
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .section-reviews .reviews-img {
-    max-width: 984px;
+    width: fit-content;
+    height: 1261px;
     position: relative;
+    background-image: url(./images/reviews-img-girl.svg);
+    background-repeat: no-repeat;
 }
 
 .section-reviews .reviews-comment {
     position: absolute;
 
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 50px;
     line-height: 61px;
     letter-spacing: -0.025em;
     text-transform: uppercase;
-
+    color: #111111;
+    margin-bottom: 40px;
     color: #F8F8F8;
-
-
-    width: 701.39px;
-    height: 793px;
-    margin-left: 640px;
-    margin-top: 420px;
+    left: 50%;
 
 }
 
-.section-reviews .btn-right {
-    margin-left: 150px;
-}
-
-.reviews-buttons {
+.section-reviews .reviews-buttons {
     position: absolute;
-    max-height: 65px;
-    margin-right: 500px;
-    margin-top: 1140px;
-    padding-left: 300px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    padding-bottom: 230px;
 }
 
 .section-reviews .btn-reviews {
-
-    width: 122.78px;
-    height: 62.23px;
-
-
-    position: absolute;
-
+    width: 100px;
+    height: 60px;
     background: rgba(217, 217, 217, 0.2);
     border: 1px solid #F8F8F8;
     backdrop-filter: blur(15px);
     border-radius: 50% / 50%;
+    cursor: pointer;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .section-reviews .reviews-icons {
@@ -669,29 +641,33 @@
     color: #F8F8F8;
 }
 
-.section-reviews .reviews-head {
-    padding-left: 150px;
-}
-
-.section-get-in-touch .get-in-touch-body {
-    margin: 0px;
-    max-width: 1408px;
-    padding: 0px;
+.section-get-in-touch {
+    margin-bottom: 200px;
 }
 
 .section-get-in-touch .get-in-touch-head {
     margin-top: 100px;
-    padding-left: 0px;
     margin-bottom: 100px;
 }
 
-.section-get-in-touch .get-in-touch-contant {
-    height: 760px;
+.section-get-in-touch .gnt-line {
+    border: 1px solid black;
+}
+
+.section-get-in-touch .get-in-touch-content {
     background-color: #111111;
+    padding-left: 50px;
 }
 
 .section-get-in-touch .get-in-touch-container {
-    max-width: 730px;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-get-in-touch .get-in-touch-form-container {
+    padding: 20px;
 }
 
 .section-get-in-touch .get-in-touch-label {
@@ -707,59 +683,40 @@
 
     color: #F8F8F8;
     margin-bottom: 60px;
-
-
 }
 
 .section-get-in-touch .get-in-touch-item {
-    width: 611.25px;
-    height: 27.03px;
-    padding: 0px;
-    margin-bottom: 80px;
-
-
+    margin-bottom: 40px;
 }
 
 .section-get-in-touch .get-in-touch-group {
     display: flex;
     flex-direction: column;
-    max-height: 760px;
-    padding-top: 114px;
-    padding-left: 58px;
 }
 
 .section-get-in-touch .get-in-touch-form {
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
     letter-spacing: -0.055em;
     text-transform: lowercase;
-
-    /* white */
     color: #F8F8F8;
     background: transparent;
-    border: 0px;
-
+    border: 0;
+    width: 100%;
 }
 
 .section-get-in-touch .get-in-touch-line {
-
-    width: 611.25px;
-    height: 0px;
-
     background: #F8F8F8;
-
     border: 1px solid #F8F8F8;
-
 }
 
 .section-get-in-touch .get-in-touch-img-container {
-    margin-left: 684px;
-    max-width: 700px;
-    margin-top: -645px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
 }
 
 .section-get-in-touch .get-in-touch-btn {
@@ -783,7 +740,52 @@
     color: #F8F8F8;
 
     margin-left: -20px;
+}
+.section-contact {
+    margin-bottom: 100px;
+}
+.section-contact .contact-head {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -0.055em;
+    text-transform: uppercase;
+    color: #111111;
+    padding-bottom: 30px;
+}
 
+.section-contact .contact-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.055em;
+    text-transform: uppercase;
+    color: #111111;
+}
 
+.section-footer .footer-head {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.055em;
+text-transform: uppercase;
+color: #111111;
+margin-bottom: 20px;
+}
 
+.section-footer .footer-info {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: -0.055em;
+text-transform: lowercase;
+color: #111111;
 }
